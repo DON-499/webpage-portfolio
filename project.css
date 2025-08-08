@@ -1,3 +1,11 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .body{
     background-color:rgba(0, 0, 0, 0.856);
     overflow: hidden;
@@ -710,3 +718,25 @@ body-00{
     width: 35px;
     margin-top: 15px;
   }
+
+  /* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+}
