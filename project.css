@@ -2,7 +2,6 @@
     background-color:rgba(0, 0, 0, 0.856);
     overflow: hidden;
     transition: 0.5s;
-    margin: 0%;
 }
 
 .body-2{
@@ -294,6 +293,9 @@ li{
         font-style: oblique;
     }
 
+    .pulse:hover{
+      color: red;
+    }
     .explore{
         cursor: pointer;
         color: orangered;
@@ -682,4 +684,29 @@ body-00{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     color: wheat;
+  }
+
+  .dropbtn{
+    margin-left: 1000px;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dropdown-content{
+    margin-left: 990px;
+    display: flex;
+  }
+  
+
+  .dropdown-content:hover::after{
+    background-color: red;
+  }
+
+  .img-home{
+    height: 30px;
+    width: 35px;
+    margin-top: 15px;
   }
